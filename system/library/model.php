@@ -1,11 +1,10 @@
 <?php
 
-class model{
-    
+class model {
+
     protected $db;
-    
-    function __construct($db)
-    {
+
+    function __construct($db) {
         $this->db = $db;
     }
 }
